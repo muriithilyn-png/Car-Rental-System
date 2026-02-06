@@ -1,21 +1,3 @@
-[10:41 AM, 2/6/2026] +254 746 096730: package carrental system;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.time.LocalDate;
-
-class RentalTest {
-
-    @Test
-    void testRentalCostCalculation() {
-        Car car = new Car("CAR333", "BMW", "X5", 2020, 150.0);
-        Customer cust = new Customer("CUST999", "Test", "0711", "test@mail.com");
-        
-        Rental rental = new Rental("RENT001", car, cust, LocalDate.now(), 7);
-        assertEquals(1050.0, rental.getTotalCost(), 0.001);
-    }
-}
 [10:41 AM, 2/6/2026] +254 746 096730: import java.io.Console;
 import java.util.Arrays;
 
